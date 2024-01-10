@@ -1,0 +1,22 @@
+ // var updatedProductHtml =
+                        //     '<div class="dropdown-divider">' + '</div>' +
+                        //     '<div class="product-container" id="product-container"style="display: flex; align-items: center;justify-content: space-between;">' +
+                        //     '<div>' +
+                        //     '<p class="product-name" style="margin: 0;font-weight: bold;">' + response.product
+                        //     .name + '</p>' +
+                        //     '<p class="product-detail" style="margin: 0; text-align:left;">$' + response.product
+                        //     .price + '</p>' +
+                        //     '<p class="product-detail" style="margin: 0; text-align:left;">Detail 2</p>' +
+                        //     '<p href="#" class="product-detail" style="margin: 0; text-align:left;cursor:pointer;" data-toggle="modal" data-target="#editModal2">Edit <span style="color: red;">*</span></p>' +
+                        //     '</div>' +
+                        //     '<div>' +
+                        //     '<div class="quantity-input">' +
+                        //     '<button class="quantity-btn decrement">' + '-' + '</button>' +
+                        //     '<div class="quantity-value">' + '1' + '</div>' +
+                        //     '<button class="quantity-btn increment">' + '+' + '</button>' +
+                        //     '</div>' +
+                        //     '<p class="additional-value" style="text-align: right; margin-right: 26px;">' +
+                        //     '$' +
+                        //     response.product.price + '</p>' +
+                        //     '</div>' + '</div>' + '</div>';
+                        // $('#itemszz').append(updatedProductHtml);
