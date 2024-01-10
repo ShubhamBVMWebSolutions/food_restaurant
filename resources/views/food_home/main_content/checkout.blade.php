@@ -98,7 +98,7 @@
 
                 <div class="card-body">
                     <div
-                        class="modal-body"style="max-height: 400px; margin: 0; display:flex;justify-content: space-between; overflow-y: auto;">
+                        class="modal-body"style="max-height: 400px; margin: 0; margin: 0; display:flex;justify-content: space-between; overflow-y: auto;">
                         <div>
                             <p style="margin: 0;">Item Price</p>
                             <p class="d-none applied_coupon"
@@ -139,20 +139,7 @@
                 </div>
             </div>
 
-            <div class="card text-center">
-                <div class="card-header">
-
-                </div>
-                <div class="card-body">
-                    <div class="dropdown-divider"></div>
-                    <div style="display: flex; align-items: center; justify-content: space-between;">
-                        <i class="fa fa-home" style="font-size:24px"></i>
-                        <p class="card-text" style="margin: 0; padding-right: 84%;">Delivery Address</p>
-                        <p style="margin: 0;cursor:pointer;">></p>
-                    </div>
-                    <div class="dropdown-divider"></div>
-                </div>
-            </div>
+            {{--  --}}
 
             <div class="card text-center">
                 <div class="card-header">
@@ -161,7 +148,7 @@
                     <div class="container-xl">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>You <b>May</b> <b>Like</b></h2>
+                                <h2>You <b>May</b> <b>Also</b> <b>Like</b></h2>
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
 
                                     <!-- Carousel indicators -->
@@ -393,9 +380,6 @@
                     });
                     return total;
                 }
-
-
-
                 updateTotalPrice();
             });
         });
@@ -429,23 +413,22 @@
                         var amount_to_pay = $('#additional-value-to-pay').val('');
 
 
-
                         $('#coupon_price').text('$ ' + discounted_price.toFixed(2));
                         $('#tax_rate').text('$ ' + discounted_tax_rate.toFixed(2));
                         $('#delivery_charges').text('$ ' + discounted_delivery_charges.toFixed(2));
                         $('#total_payble_Amount').text('$ ' + discounted_total_payble_amount.toFixed(
                             2));
+
+
                         $('#additional-value-to-pay').val(discounted_total_payble_amount.toFixed(2));
-
-
                         $('.applied_coupon').removeClass('d-none');
                         $('.coupon_class').removeClass('d-none');
                         $('.coupon_is_active').removeClass('d-none');
                         $('.coupon_isinactive').addClass('d-none');
-
-
                         $('#item_price').addClass('text-decoration-line-through');
                         $("#close").click();
+
+
                     } else {
                         alert('ok');
                     }
