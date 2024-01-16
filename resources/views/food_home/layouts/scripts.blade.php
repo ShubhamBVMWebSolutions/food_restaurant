@@ -35,11 +35,6 @@
         });
   }
 
-
-
-
-
-
     function handleFileInputChange() {
         var input = document.getElementById('profilePicInput');
         var preview = document.getElementById('imagePreview');
